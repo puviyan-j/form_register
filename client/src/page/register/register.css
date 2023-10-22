@@ -1,0 +1,55 @@
+.input {
+  outline: none;
+}
+
+.terms {
+  color: rgb(94, 249, 94);
+}
+
+.error-message {
+  font-size: 12px;
+  visibility: hidden;
+}
+
+input:invalid[focused='true']~.error-message {
+  visibility: visible;
+}
+
+.img-container {
+  width: 15%;
+}
+
+.my-primary {
+  color: #1f0a64;
+  background-color: #1f0a64;
+}
+
+.my-primary-1 {
+  color: #1f0a64;
+}
+
+.word_space {
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.btn_show {
+  visibility: visible;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn_unshow {
+  visibility: hidden;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.button {
+
+  background: linear-gradient(90deg, rgba(5, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 13%, rgba(55, 136, 118, 1) 68%, rgba(0, 158, 96, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.pointer {
+  cursor: pointer;
+}
